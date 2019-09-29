@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Im aware I could have used attibutes for the books instead of a parent element.
+There were lots of arguements for an against-->
+
+<library>
+  <technical_books>
+    <book>
+      <isbn>353636456645</isbn>
+      <title>Intro to XML</title>
+      <author>Xavier M. Langley</author>
+    </book>
+    <book>
+      <isbn>6575675757657</isbn>
+      <title>HTML: A beginners guide</title>
+      <author>Hubert T.M. Lovegood</author>
+    </book>
+  </technical_books>
+  <cookery_books>
+    <book>
+      <isbn>5675675674344</isbn>
+      <title>Noodling around</title>
+      <author>Jimmy Bighair</author>
+    </book>
+    <book>
+      <isbn>2346789087667</isbn>
+      <title>Rice to meet you</title>
+      <author>M.M.M. Pie</author>
+    </book>
+  </cookery_books>
+</library>
