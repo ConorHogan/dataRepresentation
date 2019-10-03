@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>View Cars</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Cars</h1>
+    <div><button class="btn btn-primary btn-block">Create</button></div>
+    <div>
+      <h2>Table</h2>
+      <table class="table">
+        <tr>
+          <th>Reg</th>
+          <th>Make</th>
+          <th>Model</th>
+          <th>Price</th>
+          <th>Update</th>
+          <th>Delete</th>
+      </tr>
+      <tr>
+        <td>191 MO 123</td>
+        <td>Ford</td>
+        <td>Mondeo</td>
+        <td>25,000</td>
+        <td><button class="btn btn-success btn-sm">Update</button></td>
+        <td><button class="btn btn-danger btn-sm">Delete</button></td>
+        </tr>
+      <tr>
+        <td>12 D 123</td>
+        <td>Fiat</td>
+        <td>Punto</td>
+        <td>4,000</td>
+        <td><button class="btn btn-success btn-sm">Update</button></td>
+        <td><button class="btn btn-danger btn-sm">Delete</button></td>
+        </tr>
+      <tr>
+        <td>08 G 123</td>
+        <td>Nissan</td>
+        <td>Almera</td>
+        <td>500</td>
+        <td><button class="btn btn-success btn-sm">Update</button></td>
+        <td><button class="btn btn-danger btn-sm">Delete</button></td>
+        </tr>
+        </table>
+    </div>
+    <div class="form-group">
+      <h2><span>Create a</span> <span>Update</span> this car</h2>
+      <label for="reg">Reg</label>
+      <input type="text" id="reg" class="form-control"/><br/>
+      <label for="make">Make</label>
+      <select class="form-control" name="make">
+            <option value="Ford">Ford</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Nissan">Fiat</option>
+      </select><br/>
+      <label for="Model">Reg</label>
+      <input class="form-control" type="text" name="Model"/><br/>
+      <label for="Price">Price</label>
+      <input class="form-control" type="number" name="Price"/><br/>
+    <span><button class="btn btn-success">Create</button></span>
+    <span><button class="btn btn-warning">Update</button></span>
+    </div>
+  </body>
+</html>
